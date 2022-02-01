@@ -193,8 +193,7 @@ body {
 
 aside { 
     position:  absolute;
-	width: 140px;
-    height: 140px;
+	width: 70px;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -314,7 +313,7 @@ aside{
 }
 
 aside{
-    height: 154px;
+    height: 81px;
 	padding: 2.125em 0 1.25em;
 	user-select: none;
 	position: absolute;
@@ -326,9 +325,12 @@ aside{
 	text-align: center;
 }
 
+aside > img {
+	margin-top: -15px;
+}
+
 aside.is-active {
 	background: rgba(255, 255, 255, 0.9);
 	cursor: grabbing;
 }
-
 
