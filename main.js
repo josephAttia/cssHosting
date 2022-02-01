@@ -5,7 +5,7 @@ var globalY;
 
 
 // socket = io.connect("http://127.0.0.1:5000/")
-socket = io.connect("http://bustracker-me.herokuapp.com/")
+socket = io.connect("https://bustracker-me.herokuapp.com/")
 
 
 // Loading Screen
