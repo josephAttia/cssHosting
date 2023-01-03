@@ -4,6 +4,8 @@ var globalX;
 var globalY;
 
 
+console.log("test")
+
 socket = io.connect("http://127.0.0.1:3000/")
 // socket = io.connect("https://bustracker-me.herokuapp.com/")
 
